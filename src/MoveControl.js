@@ -24,8 +24,8 @@ export const moveControlFactory = Hammer => class MoveControl extends Component 
             start: 0,
         },
         scale: {
-            startX: 2,
-            startY: 2,
+            startX: 1,
+            startY: 1,
         }
     }
 
@@ -61,8 +61,8 @@ export const moveControlFactory = Hammer => class MoveControl extends Component 
             });
         }
         onTranslateChange({
-                x: this.state.pan.startX + ev.deltaX / 200,
-                z: this.state.pan.startZ + ev.deltaY / 200,
+                x: this.state.pan.startX,
+                z: this.state.pan.startZ,
         });
     }
 

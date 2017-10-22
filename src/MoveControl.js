@@ -17,7 +17,7 @@ const styles = {
 export const moveControlFactory = Hammer => class MoveControl extends Component {
     state = {
         pan: {
-            startX: 1,
+            startX: 2,
             startZ: 2,
         },
         rotation: {

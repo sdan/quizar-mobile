@@ -16,7 +16,7 @@
         "enzyme": "2.8.2",
         "expect": "1.20.2",
         "jest-enzyme": "3.2.0",
-        "react-scripts": "1.0.7",
+        "react-scripts": "5.0.1",
         "react-test-renderer": "15.5.4"
     },
     "scripts": {
